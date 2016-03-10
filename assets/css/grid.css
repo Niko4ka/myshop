@@ -1,13 +1,22 @@
+<<<<<<< HEAD
 
 .container {
     margin: 0 auto;
 }
 
 .s-grid1, .s-grid2, .s-grid3, .s-grid4, .s-grid5, .s-grid6, .s-grid7, .s-grid8, .s-grid9, .s-grid10, .s-grid11, .l-grid1, .l-grid2, .l-grid3, .l-grid4, .l-grid5, .l-grid6, .l-grid7, .l-grid8, .l-grid9, .l-grid10, .l-grid11 {
+=======
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+>>>>>>> 29e7e49f15a66b3639ebaa4e33742b3399ac7d38
     float: left;
     display: inline;
     margin-left: 20px;
 }
+<<<<<<< HEAD
 
 
 
@@ -112,3 +121,78 @@
 
 }
 
+=======
+.grid1 {
+    width: 60px;
+}
+.grid2 {
+    width: 140px;
+}
+.grid3 {
+    width: 220px;
+}
+.grid4 {
+    width: 300px;
+}
+.grid5 {
+    width: 380px;
+}
+.grid6 {
+    width: 460px;
+}
+.grid7 {
+    width: 540px;
+}
+.grid8 {
+    width: 620px;
+}
+.grid9 {
+    width: 700px;
+}
+.grid10 {
+    width: 780px;
+}
+.grid11 {
+    width: 860px;
+}
+.first {
+    margin-left: 0;
+    clear: left;
+}
+
+/* clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix {
+    zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+    zoom: 1;
+} /* IE7 */
+
+
+/**/
+
+body {
+    font: 12px/140% Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.container {
+    background: #fff url(940-grid-bg.png) repeat-y;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px #999;
+    border-width: 1px 0;
+}
+>>>>>>> 29e7e49f15a66b3639ebaa4e33742b3399ac7d38
