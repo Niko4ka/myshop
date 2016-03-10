@@ -35,3 +35,11 @@ footer {
 .em-width {
 	font-size: 0,8rem;
 }
+
+.product-link {
+	text-decoration: none;
+}
+
+.product-link:hover {
+	text-decoration: underline;
+}
