@@ -1,0 +1,21 @@
+<?php session_start(); ?>
+
+<?php include 'data.php'; ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Корзина</title>
+</head>
+<body>
+	 <?php foreach ($products as $index => $product) { ?>
+            <div class="l-grid3">
+                <?php $product->title(); ?>
+                <div><img src="<?php echo $product->img() ?>" alt="Alt"></div>
+                <span><?php echo $product->price() ?></span>
+                <a href="/add.php?id=<?php echo $index ?>" class="-product-link" data-id="<?php echo $index ?>">В корзину</a>
+            </div>
+        <?php } ?>
+
+</body>
+</html>
