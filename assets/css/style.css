@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0px
+	padding: 0px;
+}
+/*.wrapper {
+	min-height: 100%;
+	margin-bottom: -150px;
+}*/
+
+.buffer {
+	height: 150px;
+}
+
+=======
+>>>>>>> 29e7e49f15a66b3639ebaa4e33742b3399ac7d38
+div.product {
+	float: left;
+	width: 33%;
+}
+
+<<<<<<< HEAD
+html {
+	font-size: 14px;
+}
+footer {
+	border: 1px;
+	clear: both;
+	height: 150px;
+	padding: 50px 0px 0px 0px;
+}
+
+.em-width {
+	font-size: 0,8rem;
+}
+
+.product-link {
+	text-decoration: none;
+}
+
+.product-link:hover {
+	text-decoration: underline;
+=======
+footer {
+	clear: both;
+	height: 150px;
+	padding: 50px 0px 0px 0px;
+>>>>>>> 29e7e49f15a66b3639ebaa4e33742b3399ac7d38
+}
